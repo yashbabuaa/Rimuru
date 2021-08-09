@@ -30,9 +30,9 @@ async def pmperm(slime):
       now[user.id] = count + 1
     elif count == 6:
       await rimuru(functions.contacts.BlockRequest(id=user.id))
-      await rimuru.send_message(slime.chat_id, "Agh, You wont lose your virginity here...")
+      await rimuru.send_message(slime.chat_id, "Nalle Rukja Ab😑...")
       time.sleep(2)
-      await rimuru.send_message(slime.chat_id, "Wait till Abhi comes..")
+      await rimuru.send_message(slime.chat_id, "Wait till Babuaa comes Online..")
     else:
       now[user.id] = count + 1
   else:
