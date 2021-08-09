@@ -1,2 +1,2 @@
-# Rimuru
+# Naruto
 Just a custom userbot!!! , Got no ideas....
