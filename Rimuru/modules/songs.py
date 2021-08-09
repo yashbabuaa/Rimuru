@@ -32,7 +32,7 @@ async def songs(slime):
     info = ydl.extract_info(url, download=False)
     dl = ydl.prepare_filename(info)
     ydl.download([url])
-  m = await slime.respond("Downloaded, Now uploading....")
+  m = await slime.respond("Download ho gaya, Ab uploading Chalu....")
   f = open(dl, 'rb')
   upload = await slime.client.upload_file(file=f)
   attributes, mime_type = get_attributes(str(dl))
