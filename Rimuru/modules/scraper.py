@@ -5,9 +5,9 @@ from Rimuru import rimuru
 @rimuru.on(events.NewMessage(outgoing=True, pattern=r'^#s(.*)'))
 async def movscrape(slime):
   args = slime.message.text[2:]
-  chats = [ -1001550963689 , -1001189286134 , -1001335426946 ]
+  chats = [ -1001335426946, -1001420781438, -1001452018343]
   count = 0
-  await slime.edit("Khoj jari hai...")
+  await slime.edit("Searching....")
   for chat in chats:
     if not count == 0:
       break
@@ -23,7 +23,7 @@ async def movscrape(slime):
     await slime.reply("👆") 
     await slime.delete()
   else:
-    await slime.edit("Kuch nhi mila 🥲")
+    await slime.edit("Not found....")
     
     
 
